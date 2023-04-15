@@ -1,0 +1,4 @@
+Snort is a powerful open-source network intrusion detection system (NIDS) that can analyze network traffic in real-time and alert system administrators about possible threats. Here are the steps to set up and start Snort on BlackArch Linux:
+
+    Install Snort:
+    Run the following command in the terminal:
