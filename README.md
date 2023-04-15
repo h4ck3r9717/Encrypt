@@ -34,17 +34,25 @@ To work with tool you need to have some few prerequisites.
 # How it works
 **Encrypting**
 
-- python3.10 run.py --encrypt --password <password> --input <input_file> --output <output_file>
+- python3.10 run2.py --encrypt --password <password> --input <input_file> --output <output_file>
    **e.g*
-- python3.10 run.py --encrypt --password 123 --input me.txt --output encrypted.txt
+- python3.10 run2.py --encrypt --password 123 --input me.txt --output encrypted.txt
 
 **Decryption**
 
-- python3.10 run.py --decrypt --password <password> --input <input_file> --output <output_file>
+- python3.10 run2.py --decrypt --password <password> --input <input_file> --output <output_file>
     **e.g*
-- python3.10 run.py --decrypt --password 123 --input encrypted.txt --output decrypted.txt
+- python3.10 run2.py --decrypt --password 123 --input encrypted.txt --output decrypted.txt
 
+# Encrypting inside an image
+**Encrypting**
 
+- first run: python3.10 key.py *In order to get the key*
+
+- python3.10 run.py --encrypt --password nasa9717 --input Death.jpg  --output Death_encryption.jpg --file njoga.txt *This will produce a new image that contains the data in it*
+
+**Decryption**
+- python3.10 run.py --decrypt --password nasa9717 --input Death_encryption.jpg --output njoga_decrypted.txt
 
 
 # Development
