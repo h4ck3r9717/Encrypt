@@ -72,3 +72,4 @@ for i in range(width):
 # save the encrypted image
 rgb_input_image.save(args.output)
 print(f"Encrypted file '{args.file}' stored in image '{args.output}'.")
+#n
